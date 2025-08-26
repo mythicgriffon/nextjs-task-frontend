@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import styles from '../styles/globals.css';
 
 export default function Home() {
     const [tasks, setTasks] = useState([]);
